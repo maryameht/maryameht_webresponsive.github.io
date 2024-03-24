@@ -195,7 +195,7 @@ vamos disminuyendo el tamaño del video y del audio*/
 
 /*------------------Media queries para smartphone----------------------------- */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
 
     .mainviaje {
         width: auto;
