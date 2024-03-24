@@ -204,7 +204,7 @@ vamos disminuyendo el tamaño del video y del audio*/
 
     /*cambiamos la orientación de los bloques de vertical a horizontal*/
 
-    .table {
+    table {
         display: flex;
         flex-direction: column;
         width: 100%;
