@@ -2,7 +2,6 @@
 
 /*------------------Media queries para portátil----------------------------- */
 
-
  .center {
         text-align: center;
         color: black;
@@ -193,6 +192,7 @@ vamos disminuyendo el tamaño del video y del audio*/
 
 }
 
+
 /*------------------Media queries para smartphone----------------------------- */
 
 @media only screen and (max-width: 768px) {
@@ -204,7 +204,7 @@ vamos disminuyendo el tamaño del video y del audio*/
 
     /*cambiamos la orientación de los bloques de vertical a horizontal*/
 
-    table {
+    .table {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -239,46 +239,17 @@ vamos disminuyendo el tamaño del video y del audio*/
 
     }
 
+    fieldset {
+        max-width: 100%;
+        height: auto;
+    }
+
 
 
 
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
