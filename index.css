@@ -204,22 +204,27 @@ vamos disminuyendo el tamaño del video y del audio*/
 
     /*cambiamos la orientación de los bloques de vertical a horizontal*/
 
-    td {
-        grid-template-columns: 1fr;
+    table {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
+   
     caption {
-        margin-right: 40%;
+        margin-right: 50%;
     }
 
     /*adaptamos las imagenes al tamaño de la pantalla*/
     img {
         max-width: 100%;
         height: auto;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
     video {
-        width: 6em;
+        width: 8em;
     }
 
     audio {
@@ -227,8 +232,8 @@ vamos disminuyendo el tamaño del video y del audio*/
     }
 
     article {
-        padding: 10%;
-        
+        padding: 6%;
+
     }
 
 
