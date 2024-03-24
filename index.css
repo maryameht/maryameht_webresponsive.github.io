@@ -198,13 +198,42 @@ vamos disminuyendo el tamaño del video y del audio*/
 @media only screen and (max-width: 768px) {
 
     .mainviaje {
-        width: auto ;
+        width: auto;
         height: auto;
     }
+
+    /*cambiamos la orientación de los bloques de vertical a horizontal*/
 
     td {
         grid-template-columns: 1fr;
     }
+
+    caption {
+        margin-right: 40%;
+    }
+
+    /*adaptamos las imagenes al tamaño de la pantalla*/
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    video {
+        width: 6em;
+    }
+
+    audio {
+        width: 6em;
+    }
+
+    article {
+        padding: 10%;
+        
+    }
+
+
+
+
 
 
 }
