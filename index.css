@@ -98,7 +98,7 @@ article {background-color: white;
 
 /*ajustamos el caption de "y los servicios son" con el fin de que se ajuste
 al minimizar la pantalla*/
-@media (max-width: 600px) {
+@media (max-width: 620px) {
 article {
     padding-left: 2%; 
 }
