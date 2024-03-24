@@ -64,7 +64,7 @@ font-size: 1rem;
 
 /*ajustamos el caption de "y los servicios son" con el fin de que se ajuste
 al minimizar la pantalla*/
-@media (max-width: 600px) {
+@media (max-width: 620px) {
 caption {
     margin-left: 18%;
     padding: 2%;
@@ -98,7 +98,7 @@ article {background-color: white;
 
 /*ajustamos el caption de "y los servicios son" con el fin de que se ajuste
 al minimizar la pantalla*/
-@media (max-width: 620px) {
+@media (max-width: 600px) {
 article {
     padding-left: 2%; 
 }
@@ -217,7 +217,7 @@ audio {
 
 
 caption {
-    margin-left: 20%;;
+    margin-left: 20%;
 }
 
 /*adaptamos las imagenes al tamaño de la pantalla*/
@@ -249,13 +249,6 @@ article {
     height: auto;
 }
 
-fieldset {
-    max-width: 100%;
-    width: 50%;
-    height: 100px;
-    object-fit: cover;
-    object-position: bottom;
-}
 
 }
 
