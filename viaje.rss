@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Escápate a Marruecos</title>
+    <link>https://maryameht.github.io</link>
+    <description>Un blog de viaje a las ciudades más hermosas de Marruecos</description>
+    <language>ES</language>
+    <image>
+      <title>Marruecos</title>
+      <url>https://maryameht.github.io/multimedia/logo.jpg</url>
+      <link>https://maryameht.github.io</link>
+      <width>90</width>
+      <height>36</height>
+    </image>
+    <pubDate>Jue, 29 Feb 2024</pubDate>
+    <item>
+      <title>Ciudades</title>
+      <link>https://maryameht.github.io</link>
+      <description>Presentamos los destinos y restaurantes que más te gustarán ! 
+Las ciudades que te presentamos son Chefchaouen, Marrakech, Rabat y Agadir.
+      </description>
+      <category>Turismo</category>
+      <author>Maryam El Harrak</author>
+    </item>
+    <item>
+      <title>Restaurantes</title>
+      <link>https://maryameht.github.io</link>
+      <description>
+También te hemos dejado varios enlaces de restaurantes 
+dónde encontrarás comidas típicas de Marruecos deliciosas ! 
+Los restaurantes son: 
+Restaurante Aladdin
+Restaurante Let's Be Healing Food
+Cefé La Galerie
+Restaurante La Terrasse de La Brillante
+</description>
+      <category>Gastronomía</category>
+      <author>Maryam El Harrak</author>
+    </item>
+  </channel>
+</rss>
