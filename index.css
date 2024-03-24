@@ -204,7 +204,25 @@ vamos disminuyendo el tamaño del video y del audio*/
 
     /*cambiamos la orientación de los bloques de vertical a horizontal*/
 
-    td {
+    .columna1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .columna2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .columna3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .columna4 {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -212,19 +230,19 @@ vamos disminuyendo el tamaño del video y del audio*/
 
    
     caption {
-        margin-right: 50%;
+        margin-right: 40%
     }
 
     /*adaptamos las imagenes al tamaño de la pantalla*/
     img {
         max-width: 100%;
         height: auto;
-        margin-left: 5%;
-        margin-right: 5%;
+
     }
 
     video {
         width: 8em;
+        padding-right: 4%;
     }
 
     audio {
@@ -232,7 +250,10 @@ vamos disminuyendo el tamaño del video y del audio*/
     }
 
     article {
-        padding: 6%;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 7%;
+
 
     }
 
@@ -242,7 +263,6 @@ vamos disminuyendo el tamaño del video y del audio*/
 
 
 }
-
 
 
 
